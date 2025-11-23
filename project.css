@@ -108,12 +108,9 @@ hr {
   top: 50px ;
   left: 400px ;
   z-index: 10;
-  margin: 0;
-
   padding: 8px 16px;
   background-color: #333;
   color: white;
-  text-decoration: none;
   text-align: center;
   font-size: 16px;
   border-radius: 8px;
@@ -152,5 +149,6 @@ hr {
     background-color: #0056b3;
     transform: scale(0.9);
 }
+
 
 
