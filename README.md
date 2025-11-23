@@ -1,1 +1,1 @@
-# Cheat-Engine
+Cheat Engine is a tool which allows you to modify local game memory to "hack" the game and add or remove values to certain components. Eg: Giving yourself more hp or adding more coins to your balance.
