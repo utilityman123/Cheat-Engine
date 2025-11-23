@@ -104,7 +104,7 @@ hr {
 
 /* home button */
 .home-btn {
-  position: static ;
+  position: fixed ;
   top: 50px ;
   left: 400px ;
   z-index: 10;
@@ -152,4 +152,5 @@ hr {
     background-color: #0056b3;
     transform: scale(0.9);
 }
+
 
