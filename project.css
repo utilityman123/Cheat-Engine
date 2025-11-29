@@ -104,13 +104,16 @@ hr {
 
 /* home button */
 .home-btn {
-  position: fixed ;
-  top: 50px ;
-  left: 400px ;
+  position: fixed !important;
+  top: 50px !important;
+  left: 400px !important;
   z-index: 10;
+  margin: 0;
+
   padding: 8px 16px;
   background-color: #333;
   color: white;
+  text-decoration: none;
   text-align: center;
   font-size: 16px;
   border-radius: 8px;
@@ -151,12 +154,9 @@ hr {
     transform: scale(0.9);
 }
 
-
-
-
-
-
-
-
-
-
+/* for mobile */
+@media (max-width: 600px) {
+  .home-btn{
+    left: 5px !important;
+  }
+}
